@@ -39,4 +39,26 @@ Console.WriteLine($"{numero2} > {numero1}: {numero2 > numero1}");
 Console.WriteLine($"{numero1} > {numero1}: {numero1 > numero1}");
 Console.WriteLine($"{numeroDecimal} > 9.5: {numeroDecimal > 9.5}");
 
+// Operador Menor que <
+
+Console.WriteLine($"\n Operador Menor que <");
+Console.WriteLine($"{numero1} < {numero2}: {numero1 < numero2}");
+Console.WriteLine($"{numero2} < {numero1}: {numero2 < numero1}");
+Console.WriteLine($"{numero1} < {numero1}: {numero1 < numero1}");
+Console.WriteLine($"{numeroDecimal} < 10.5: {numeroDecimal < 10.5}");
+
+// Operador Maior ou Igual a >=
+Console.WriteLine($"\n Operador Maior ou igual a >=");
+Console.WriteLine($"{numero1} >= {numero2}: {numero1 >= numero2}");
+Console.WriteLine($"{numero1} >= 10: {numero1 >= 10}");
+Console.WriteLine($"{numero2} >= {numero1}: {numero2 >= numero1}");
+Console.WriteLine($"{numero2} >= 5: {numero2 >= 5}");
+
+// Operador Menor ou igual a <=
+Console.WriteLine($"\n Operador Menor ou igual a <=");
+Console.WriteLine($"{numero1} <= {numero2}: {numero1 <= numero2}");
+Console.WriteLine($"{numero1} <= 10: {numero1 <= 10}");
+Console.WriteLine($"{numero2} <= {numero1}: {numero2 <= numero1}");
+Console.WriteLine($"{numero2} <= 5: {numero2 <= 5}");
+
 
