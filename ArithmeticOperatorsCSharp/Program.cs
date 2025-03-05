@@ -20,14 +20,14 @@ Console.WriteLine($"{numero1} * {numero2} = {multiplicacao}");
 
 // Divisão Inteira e Decimal
 int divisaoInteira = numero1 / numero2;
-Console.WriteLine($"{numero1} / {numero2} = {divisaoInteira}");
+Console.WriteLine($"{numero1} / {numero2} divisão inteira = {divisaoInteira}");
 
 double divisaoDecimal = numeroDecimal1 / numero2;
-Console.WriteLine($"{numeroDecimal1} / {numero2} = {divisaoDecimal}");
+Console.WriteLine($"{numeroDecimal1} / {numero2} divisão decimal = {divisaoDecimal}");
 
 // Resto da Divisão 
 int restoDivisao = numero1 % numero2;
-Console.WriteLine($"{numero1} % {numero2} = {restoDivisao}");
+Console.WriteLine($"{numero1} % {numero2} resto da divisão = {restoDivisao}");
 
 int restoDivisao2 = 17 % 5;
 Console.WriteLine($"17 % 5 resto da divisao = {restoDivisao2}");
