@@ -30,3 +30,12 @@ Console.WriteLine($"{texto1} != {texto3}: {texto1 != texto3}");
 Console.WriteLine($"{verdadeiro} != {falso}: {verdadeiro != falso}");
 Console.WriteLine($"{verdadeiro} != true: {verdadeiro != true}");
 
+// Operador Maior que >
+
+Console.WriteLine($"\n Operador Maior que > ");
+Console.WriteLine($"{numero1} > {numero2}: {numero1 > numero2}");
+Console.WriteLine($"{numero2} > {numero1}: {numero2 > numero1}");
+Console.WriteLine($"{numero2} > {numero1}: {numero1 > numero1}");
+Console.WriteLine($"{numeroDecimal} > 9.5: {numeroDecimal > 9.5}");
+
+
