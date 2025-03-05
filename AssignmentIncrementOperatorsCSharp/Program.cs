@@ -40,6 +40,7 @@ Console.WriteLine($"contador-- pós-decremento: {contador}");
 --contador;
 Console.WriteLine($"--contador pré-decremento: {contador}");
 Console.WriteLine("------------------------------");
+
 // Diferença entre Pré e Pós Incremento
 
 int contador2 = 10;
