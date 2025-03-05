@@ -15,11 +15,11 @@ bool falso = false;
 
 Console.WriteLine($"\nOperador Igual a == ");
 Console.WriteLine($"{numero1} == {numero2}: {numero1 == numero2}");
-Console.WriteLine($"{numero1} = 10: {numero1 == 10}");
+Console.WriteLine($"{numero1} == 10: {numero1 == 10}");
 Console.WriteLine($"{texto1} == {texto2}: {texto1 == texto2}");
 Console.WriteLine($"{texto1} == {texto3}: {texto1 == texto3}");
 Console.WriteLine($"{verdadeiro} == {falso}: {verdadeiro == falso}");
-Console.WriteLine($"{verdadeiro} = true: {verdadeiro == true}");
+Console.WriteLine($"{verdadeiro} == true: {verdadeiro == true}");
 
 // Operador Diferente de !=
 
