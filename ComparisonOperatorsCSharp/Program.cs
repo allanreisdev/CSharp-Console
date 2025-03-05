@@ -1,6 +1,7 @@
 ﻿Console.WriteLine("Operadores de Comparação em C#");
 
 // Variáveis para comparação
+
 int numero1 = 10;
 int numero2 = 5;
 double numeroDecimal = 10.0;
@@ -35,7 +36,7 @@ Console.WriteLine($"{verdadeiro} != true: {verdadeiro != true}");
 Console.WriteLine($"\n Operador Maior que > ");
 Console.WriteLine($"{numero1} > {numero2}: {numero1 > numero2}");
 Console.WriteLine($"{numero2} > {numero1}: {numero2 > numero1}");
-Console.WriteLine($"{numero2} > {numero1}: {numero1 > numero1}");
+Console.WriteLine($"{numero1} > {numero1}: {numero1 > numero1}");
 Console.WriteLine($"{numeroDecimal} > 9.5: {numeroDecimal > 9.5}");
 
 
