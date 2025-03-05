@@ -42,14 +42,14 @@ Console.WriteLine($"--contador pré-decremento: {contador}");
 Console.WriteLine("------------------------------");
 // Diferença entre Pré e Pós Incremento
 
-int contador2 = 5;
+int contador2 = 10;
 Console.WriteLine($"Contador inicial:{contador2}");
 int resultadoPreIncremento = ++contador2;
 Console.WriteLine($"\nPré-incremento:");
 Console.WriteLine($"contador2: {contador2}");
 Console.WriteLine($"resultadoPreIncremento: {resultadoPreIncremento}");
 Console.WriteLine("------------------------------");
-int contador3 = 5;
+int contador3 = 10;
 Console.WriteLine($"Contador inicial:{contador3}");
 
 int resultadoPosIncremento = contador3++;
